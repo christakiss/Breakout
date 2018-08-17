@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html manifest="breakout.appcache">
+    <head>
+        <title>Breakout</title>
+        <meta charset="UTF-8">
+        <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no'/>
+        <meta name="mobile-web-app-capable" content="yes"/>
+        <meta name="apple-mobile-web-app-capable" content="yes"/>
+        <link rel="icon" sizes="192x192" href="ball_logo.png"/>
+        <link rel="apple-touch-icon" href="ball_logo.png"/>
+        <link rel="stylesheet" type="text/css" href="normalize.css"/>
+        <link rel="stylesheet" type="text/css" href="css.css"/>
+    </head>
+    <body>
+        <main>
+            <div id="graphics">
+                <canvas id="mycanvas">Canvas is not supported by this browser</canvas>
+            </div>
+        </main>
+        <script src="GraphicsView.js"></script>
+        <script src="GraphicsController.js"></script>
+    </body>
+</html>
